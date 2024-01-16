@@ -17,10 +17,6 @@ nav {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a:hover {
-    background-color: #f0f0f0;
-}
-
 nav ul {
     width: 100%;
     list-style: none;
@@ -48,6 +44,10 @@ nav a:hover {
 
 nav li:first-child {
     margin-right: auto;
+}
+
+.logo:hover {
+    background-color: greenyellow !important;
 }
 
 .sidebar {
