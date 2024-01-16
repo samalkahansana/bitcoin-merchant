@@ -19,7 +19,11 @@ nav {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
+<<<<<<< HEAD
 nav div {
+=======
+nav ul {
+>>>>>>> 7ca191f18abac84a62064fa983ec1f128980c700
     width: 100%;
     list-style: none;
     display: flex;
@@ -47,6 +51,10 @@ nav a:hover {
     background-color: black;
 }
 
+
+.logo:hover {
+    background-color: greenyellow !important;
+}
 
 .sidebar {
     position: fixed;
