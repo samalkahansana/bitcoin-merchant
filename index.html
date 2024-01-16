@@ -4,22 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>For Beginner Merchants</title>
-    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link rel="stylesheet" type="text/css" href="styles.css" >
 </head>
 <body>
     <nav>
-        <ul class="sidebar">
-            <li onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></li>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-        <ul>
-            <li><a href="#">Bitcoin</a></li>
-            <li><a href="hideOnMobile">Home</a></li>
-            <li><a href="hideOnMobile">About</a></li>
-            <li><a href="hideOnMobile">Contact</a></li>
-            <li class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></li>
+        <div class="sidebar">
+            <span onclick=hideSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg></a></span>
+            <span><a href="#">Home</a></span>
+            <span><a href="#">Vraag En Antwoord</a></span>
+            <span><a href="#">Praktijk Cases</a></span>
+            <span><a href="#">Demo</a></span>
+            <span><a href="#">Starten</a></span>
+            <span><a href="#">Contact</a></span>
+        </div>
+        <div class="flex">
+            <div class="logo">
+                <img src="images/haiyohenamagahapan.png" alt="Navigation Bar" height="50" width="50"/>
+                <span class="logotext">Bitcoin</span>
+            </div>
+            <div class="text">
+                <span><a href="#" class="hideOnMobile">Home</a></span>
+                <span><a href="#" class="hideOnMobile">Vraag En Antwoord</a></span>
+                <span><a href="#" class="hideOnMobile">Praktijk Cases</a></span>
+                <span><a href="#" class="hideOnMobile">Demo</a></span>
+                <span><a href="#" class="hideOnMobile">Starten</a></span>
+                <span><a href="#" class="hideOnMobile">Contact</a></span>
+                <span class="menu-button" onclick=showSideBar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 -960 960 960" width="26"><path d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"/></svg></a></span>
+             </div>
+        </div>
     </nav>
 
     <script>

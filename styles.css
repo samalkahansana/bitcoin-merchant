@@ -5,11 +5,13 @@
 
 body {
     min-height: 100vh;
-    background-image: url(images/bitcoin.jpeg);
+    background-image: url(images/hi.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-position: center center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav {
@@ -17,38 +19,34 @@ nav {
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
 }
 
-nav a:hover {
-    background-color: #f0f0f0;
-}
-
-nav ul {
+nav div {
     width: 100%;
     list-style: none;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
-
-nav li {
+    font-weight: bolder;
+    margin-left: 15px;
     height: 8vh;
 }
 
-nav a {
+nav span{
     height: 100%;
+}
+
+nav span a {
     padding: 0 30px;
     text-decoration: none;
     display: flex;
     align-items: center;
     color: white;
+    height: 100%;
 }
 
 nav a:hover {
     background-color: black;
 }
 
-nav li:first-child {
-    margin-right: auto;
-}
 
 .sidebar {
     position: fixed;
@@ -64,10 +62,37 @@ nav li:first-child {
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
+    text-decoration: none;
+    
 }
 
-.sidebar li {
+.sidebar span {
     width: 100%;
+    height: auto;
+}
+
+.sidebar a {
+    width: 100%;
+    height: 100px;
+}
+
+.logo {
+        margin-left: auto;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 10px;
+}
+
+.logotext {
+    display: flex;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.sidebar div {
+    width: 100%;
+    font-weight: bolder;
 }
 
 .sidebar a {
@@ -76,6 +101,10 @@ nav li:first-child {
 
 .menu-button {
     display: none;
+}
+
+.flex {
+    color: white;
 }
 
 @media(max-width: 800px) {
