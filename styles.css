@@ -48,11 +48,6 @@ nav a:hover {
     background-color: black;
 }
 
-
-.logo:hover {
-    background-color: greenyellow !important;
-}
-
 .sidebar {
     position: fixed;
     top: 0;
