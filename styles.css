@@ -5,18 +5,19 @@
 
 body {
     min-height: 100vh;
-    background-image: url(images/hi.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-position: center center;
+    background-position: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 nav {
     background-color: orange;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+    height: 8vh;
 }
 
 
@@ -46,6 +47,82 @@ nav span a {
 
 nav a:hover {
     background-color: black;
+}
+footer {
+    background-color: orange;
+    height: auto;
+    width: 100vw;
+    font-family: "Open Sans";
+    padding-top: 40px;
+    color: white;
+    position: absolute;
+    bottom: 0;
+    padding-top: 0;
+}
+
+.background-image {
+    background-image: url(/images/hi.jpeg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-size: cover;
+}
+
+.text {
+    text-align: center;
+    align-items: center;
+    list-style: none;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+    font-weight: bold;
+}
+
+.text li {
+    margin: 0 10px;
+}
+
+.text li:hover {
+    color: black;
+}
+
+.text a {
+    text-decoration: none;
+    color: white;
+}
+
+.text a:hover {
+    color: black;
+    transition: 0.4s;
+}
+
+.footer-content {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+    font-weight: bolder;
+}
+
+.footer-bottom {
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    height: 4vh;
+    padding-top: 10px;
+    word-spacing: 1px;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
 }
 
 .sidebar {
