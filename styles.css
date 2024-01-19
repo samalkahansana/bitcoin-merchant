@@ -4,7 +4,6 @@
 }
 
 body {
-    min-height: 100vh;
     background-size: cover;
     background-repeat: no-repeat;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -12,6 +11,7 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     display: flex;
     flex-direction: column;
+    height: 100vh;
 }
 
 nav {
@@ -29,7 +29,8 @@ nav div {
     align-items: center;
     font-weight: bolder;
     margin-left: 15px;
-    height: 8vh;
+    height: 11vh;
+    
 }
 
 nav span{
@@ -43,6 +44,7 @@ nav span a {
     align-items: center;
     color: white;
     height: 100%;
+    
 }
 
 nav a:hover {
@@ -55,9 +57,11 @@ footer {
     font-family: "Open Sans";
     padding-top: 40px;
     color: white;
-    position: absolute;
+    position: relative;
     bottom: 0;
     padding-top: 0;
+    margin-bottom: 0;
+    
 }
 
 .background-image {
@@ -159,6 +163,7 @@ footer {
         justify-content: flex-start;
         align-items: center;
         gap: 10px;
+        height: 100%;
 }
 
 .logotext {
