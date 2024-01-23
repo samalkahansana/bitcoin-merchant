@@ -20,7 +20,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-image: linear-gradient(#f6802e, #f6802e);
+    background-image: linear-gradient(#FE9702, #E66714);
+    box-shadow: inset 0 -2px 0  rgba(0, 0, 0, 0.8);
 }
 
 
@@ -31,7 +32,6 @@ nav div {
     align-items: center;
     font-weight: bolder;
     height: 11vh;
-    
 }
 
 nav span{
@@ -58,7 +58,7 @@ footer {
     color: white;
     position: relative;
     bottom: 0;
-    background-image: linear-gradient(#f6802e, #f6802e);
+    background-image: linear-gradient(#FE9702, #E66714);
     
 }
 
@@ -144,7 +144,7 @@ button:hover {
     height: 100vh;
     width: 250px;
     z-index: 999;
-    background-image: linear-gradient(#f6802e, #f6802e);
+    background-image: linear-gradient(#FE9702, #E66714);
     backdrop-filter: blur(10px);
     box-shadow: -10px 0 10px rgba(0, 0, 0, 0.1);
     display: none;
@@ -180,6 +180,8 @@ button:hover {
     align-items: center;
     font-size: 30px;
     font-family: 'Ubuntu', sans-serif;
+    text-shadow: 2px 2px black;
+
 }
 
 .sidebar div {
@@ -210,7 +212,7 @@ button:hover {
     height: 4vh;
     margin: auto;
     display: block;
-    background-image: linear-gradient(#f6802e, #f6802e);
+    background-image: linear-gradient(#FE9702, #E66714);
     margin-top: 10px;
 }
 
