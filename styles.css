@@ -15,12 +15,12 @@ body {
 }
 
 nav {
-    background-color: orange;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
     height: 8vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-image: linear-gradient(#f6802e, #f6802e);
 }
 
 
@@ -52,22 +52,24 @@ nav a:hover {
     background-color: black;
 }
 footer {
-    background-color: orange;
     height: auto;
     width: 100vw;
     font-family: "Open Sans";
-    padding-top: 40px;
     color: white;
     position: relative;
     bottom: 0;
-    padding-top: 0;
-    margin-bottom: 0;
+    background-image: linear-gradient(#f6802e, #f6802e);
     
 }
 
 button:hover {
     background-color: black;
     color: white;
+}
+
+.top {
+    margin-top: 40px;
+
 }
 
 .background-image {
@@ -170,12 +172,14 @@ button:hover {
         align-items: center;
         gap: 10px;
         height: 100%;
+        margin-left: 20px;
 }
 
 .logotext {
     display: flex;
     align-items: center;
     font-size: 30px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .sidebar div {
@@ -201,12 +205,12 @@ button:hover {
 }
 
 .button {
-    border-radius: 10px;
-    min-width: 7vw;
+    border-radius: 20px;
+    min-width: 200px;
     height: 4vh;
     margin: auto;
     display: block;
-    background-color: orange;
+    background-image: linear-gradient(#f6802e, #f6802e);
     margin-top: 10px;
 }
 
