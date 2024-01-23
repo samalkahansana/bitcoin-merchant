@@ -20,7 +20,6 @@ nav {
     height: 8vh;
     display: flex;
     justify-content: space-between;
-    background-color: blue;
     align-items: center;
 }
 
@@ -66,11 +65,16 @@ footer {
     
 }
 
+button:hover {
+    background-color: black;
+    color: white;
+}
+
 .background-image {
     background-image: url(/images/hi.jpeg);
     background-repeat: no-repeat;
     height: 100vh;
-    background-size: cover;
+    background-size: 100% 100%;
 }
 
 .text {
@@ -78,16 +82,16 @@ footer {
     align-items: center;
     list-style: none;
     justify-content: center;
+    margin: 1rem 0 3rem 0;
     font-weight: bold;
-    
 }
 
 .text span {
     margin: 0 10px;
 }
 
-.text a:hover {
-    background-color: white;
+.text span:hover {
+    color: black;
 }
 
 .text a {
@@ -185,13 +189,32 @@ footer {
 
 .menu-button {
     display: none;
-    background-color: aqua;
-    
 }
 
 .flex {
     color: white;
 }
+
+.para {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.button {
+    border-radius: 10px;
+    width: 7vw;
+    height: 4vh;
+    margin: auto;
+    display: block;
+    background-color: orange;
+    margin-top: 10px;
+}
+
+.space {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 
 @media(max-width: 800px) {
     .hideOnMobile {
