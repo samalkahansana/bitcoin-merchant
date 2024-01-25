@@ -38,10 +38,12 @@
             </div>
         </div>
     </nav>
+    <div>
     <div class="background-image"></div>
-    <div class="space">
-        <h1 class="para">Advantages and Disavantages</h1>
-        <button class="button">Demo</button>
+        <div class="space">
+            <h1 class="para">Advantages and Disavantages</h1>
+            <button class="button">Demo</button>
+        </div>
     </div>
     <footer>
         <div class="top">
@@ -71,6 +73,31 @@
             const sidebar = document.querySelector('.sidebar');
             sidebar.style.display = 'none';
         }
+
+        document.addEventListener('DOMContentLoaded', function () {
+    const nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+            nav.classList.add('shadow');
+        } else {
+            nav.classList.remove('shadow');
+        }
+        });
+});
+    </script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+    const nav = document.querySelector('nav');
+
+    window.addEventListener('scroll', function () {
+        if (window.scrollY > 50) {
+            nav.classList.add('shadow');
+        } else {
+            nav.classList.remove('shadow');
+        }
+    });
+});
     </script>
     
 </body>
