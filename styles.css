@@ -8,7 +8,7 @@ body {
     background-repeat: no-repeat;
     font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     background-position: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Roboto Flex', sans-serif;
     display: flex;
     flex-direction: column;
     height: 100vh;
@@ -132,6 +132,7 @@ button:hover {
     height: 4vh;
     padding-top: 10px;
     word-spacing: 1px;
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 .footer-bottom span {
@@ -218,7 +219,6 @@ button:hover {
     display: block;
     background-image: linear-gradient(#FE9702, #E66714);
     margin-top: 10px;
-    font-family: 'Roboto Flex', sans-serif;
     margin-bottom: 10px;
 }
 
