@@ -80,7 +80,7 @@ button span {
 }
 
 .background-image {
-    background-image: url"/images/signal-2024-01-27-211754_002.webp";
+    background-image: url("../images/signal-2024-01-27-211754_002.webp");
     background-repeat: no-repeat;
     height: 100vh;
     background-size: 100% 100%;
